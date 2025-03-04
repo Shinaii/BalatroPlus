@@ -6,13 +6,13 @@ function G.FUNCS.reroll_shop(e)
     _reroll_shop(e) -- Call the original function so that upper cards get rerolled
 
     
-    if BMC.config.reroll_shop.enable then
-        if BMC.config.reroll_shop.booster then
+    if BP.config.reroll_shop.enable then
+        if BP.config.reroll_shop.booster then
         -- Booster reroll
             reroll_shop_booster()
         end
 
-        if BMC.config.reroll_shop.voucher then
+        if BP.config.reroll_shop.voucher then
         -- Voucher reroll
             reroll_shop_voucher()
         end

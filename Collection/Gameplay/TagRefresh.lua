@@ -65,14 +65,14 @@ function G.FUNCS.reroll_tags()
 end
 
 -- Override love.keypressed
-local keyboardKey = BMC.config.tag_refresh.refresh_key
-local gamepadKey = BMC.config.tag_refresh.refresh_gamepad
+local keyboardKey = BP.config.tag_refresh.refresh_key
+local gamepadKey = BP.config.tag_refresh.refresh_gamepad
 local ref = love.keypressed
 function love.keypressed(key)
     ref(key)
-    if BMC.config.tag_refresh.enable then
+    if BP.config.tag_refresh.enable then
         if key == keyboardKey and G.STATE == G.STATES.BLIND_SELECT and G.GAME.round_resets.blind_tags and G.blind_select then
-            if BMC.config.tag_refresh.newgame then
+            if BP.config.tag_refresh.newgame then
                 if G.GAME.round == 0 then
                     G.FUNCS.reroll_tags()
                 end
@@ -88,7 +88,7 @@ local refgpad = love.gamepadpressed
 function love.gamepadpressed(joystick, button)
     refgpad(joystick, button)
     if button == gamepadKey and G.STATE == G.STATES.BLIND_SELECT and G.GAME.round_resets.blind_tags and G.blind_select then
-        if BMC.config.tag_refresh.newgame then
+        if BP.config.tag_refresh.newgame then
             if G.GAME.round == 0 then
                 G.FUNCS.reroll_tags()
             end
