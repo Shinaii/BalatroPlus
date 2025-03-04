@@ -1,0 +1,17 @@
+{
+	"id": "BP", 
+	"name": "BalatroPlus", 
+	"author": ["Shinaii"], 
+	"description": "BalatroPlus | A Collection of Mods for Balatro",
+	"prefix": "bp",
+	"main_file": "core.lua",
+	"priority": 0,
+	"badge_colour": "9966ff",
+	"badge_text_colour": "ede9f7",
+	"display_name": "BalatroPlus",
+	"version": "1.0.0",
+	"dependencies": [],
+	"conflicts": [], 
+	"provides": [],
+	"dump_loc": false
+}
