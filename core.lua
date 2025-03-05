@@ -6,6 +6,8 @@ _G.BP = BP
 
 ------------------
 --- MOD LOADER ---
+---------------------
+--- Gameplay Mods ---
 
 -- Load tag_refresh
 local tag_refresh_path = BP.config.tag_refresh.path
@@ -16,6 +18,7 @@ sendInfoMessage("Tag Refresh Mod Loaded", "BP")
 local reroll_shop_path = BP.config.reroll_shop.path
 assert(SMODS.load_file(reroll_shop_path))()
 sendInfoMessage("Reroll Shop Mod Loaded", "BP")
+
 
 -- Load ALL Funcs
 local cf_path = BP.config.funcs.cf

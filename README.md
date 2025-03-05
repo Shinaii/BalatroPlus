@@ -19,11 +19,21 @@ Balatro Plus is a comprehensive collection of mods combined into a single, easy-
 
 ### Requirements
 
+## Need to install
 - [Steamodded](https://github.com/Steamopollys/Steamodded)
 - [Lovely](https://github.com/ethangreen-dev/lovely-injector)
 
 ### Install Steps
 
+## Auto-Install
+1. **Download the Mod**:
+   - Go to the [releases page](https://github.com/Shinaii/SMM/releases) and download the latest version of Balatro Plus.
+
+2. **Run the Script for your OS**
+   - **Windows**: `Install.ps1`
+   - **Mac & Linux**: `Install.sh`
+
+## Manual
 1. **Download the Mod**:
    - Go to the [releases page](https://github.com/Shinaii/SMM/releases) and download the latest version of Balatro Plus.
 

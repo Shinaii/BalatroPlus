@@ -15,7 +15,7 @@ function Game:main_menu(change_context)
                 {
                     n = G.UIT.T,
                     config = {
-                        scale = 0.8,
+                        scale = 0.5,
                         text = localize('version'),
                         colour = G.C.UI.TEXT_LIGHT
                     }

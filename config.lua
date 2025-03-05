@@ -5,8 +5,8 @@ return {
     },
     -- Funcs
     funcs = {
-        cf = "Collection/Func/CF.lua",
-        main_menu_display = "Collection/Func/MainMenuDisplay.lua",
+        cf = "Mods/Func/CF.lua",
+        main_menu_display = "Mods/Func/MainMenuDisplay.lua",
     },
     -- Gameplay
     tag_refresh = {
@@ -14,12 +14,12 @@ return {
         enable = true,
         refresh_key = "f1",
         refresh_gamepad = "rightshoulder",
-        path = "Collection/Gameplay/TagRefresh.lua",
+        path = "Mods/Gameplay/TagRefresh.lua",
     },
     reroll_shop = {
         enable = true,
         voucher = false,
         booster = true,
-        path = "Collection/Gameplay/RerollShop.lua",
-    },
+        path = "Mods/Gameplay/RerollShop.lua",
+    }
 }
